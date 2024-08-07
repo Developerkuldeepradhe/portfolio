@@ -558,6 +558,9 @@
 .icon-globe:before {
   content: "\f0ac";
 }
+.icon-download:before{
+content: "\f0ab";
+}
 .icon-wrench:before {
   content: "\f0ad";
 }

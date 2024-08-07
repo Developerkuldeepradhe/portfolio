@@ -9291,6 +9291,14 @@ textarea.form-control {
   color: #ffbd39;
   display: block; }
 
+  .ftco-counter .textPlus strong.number {
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffbd39;
+    display: inline-flex; 
+ 
+  }
+
 .ftco-counter .text span {
   display: block;
   font-size: 16px;

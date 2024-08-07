@@ -1464,7 +1464,7 @@ textarea.form-control {
 		}
 	}
 	.block-18{
-		display: block;
+		display: inline;
 		width:100%;
 		text-align: center;
 		background: #191919;
@@ -1477,6 +1477,7 @@ textarea.form-control {
 			font-size: 30px;
 			color: $primary;
 			display: block;
+			// content: "+";
 		}
 		span{
 			display: block;

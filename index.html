@@ -161,6 +161,7 @@
 						const typingTexts = [
 						'React Native Developer  ',
 						'JavaScript Developer  ',
+						'Mentor '
 						];
 
 						// Create a function to display the typing animation for a given text
@@ -169,14 +170,14 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 100); // Increase the delay to slow down the typing animation
 						}
 
 						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
+						}, text.length * 150);
 						}
 
 						// Start the typing animation loop
@@ -278,13 +279,15 @@
 								<p>Skilled React Native developer with over 2 years of experience, having developed 5+ apps from scratch. Proven track record in delivering high-quality, user-friendly applications. A dedicated team player and leader with excellent problem-solving skills and a proactive approach to learning new technologies. Known for strong communication skills, attention to detail, and the ability to adapt quickly to changing project requirements. Enthusiastic about driving innovation and contributing to the success of the team.
 								</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Mobile Application Developer</span></li>
+									<li class="d-flex"><span>Profile :</span> <span>Mobile Application Developer</span></li>
 									<!-- <li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li> -->
-									<li class="d-flex"><span>Education:</span> <span>Master's of Computer Applications</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+									<li class="d-flex"><span>Education :</span> <span>Master's of Computer Applications</span></li>
+									<li class="d-flex"><span>Language :</span> <span>English, Hindi</span></li>
 									<!-- <li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp; Tableau</span></li> -->
-									<!-- <li class="d-flex"><span>Other Skills:</span> <span>Cloud, PySpark, Excel, Git, JIRA, Google Analytics &amp; SEO</span></li> -->
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching, Learning, Reading</span></li>
+									<li class="d-flex"><span>Interest :</span> <span>Traveling, Travel Photography, Teaching, Learning, Reading</span></li>
+									<li class="d-flex"><span>Other Skills :</span> <span>Google Firebase, Google Maps, Zoho, SSO</span></li>
+
+									<li class="d-flex"><span>Tools :</span> <span>Android Studio, XCode, VS Code, Postman, Github </span></li>
 									
 								</ul>
 							</div>
